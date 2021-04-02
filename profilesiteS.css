@@ -1,0 +1,162 @@
+body {
+    text-align: center;
+    background-color: khaki;
+    background-image: url("images/backdrop.png");
+    background-attachment: fixed;
+    padding: 12px;
+}
+
+#topbutton {
+    background: none;
+    border: none;
+    outline: none;
+    background-attachment: inherit;
+    transition: 1s;
+}
+
+#topbutton:hover {
+    transform: scale(1.1);
+}
+
+#topdiv {
+    padding: 20px;
+    background-image: url("images/bg.jpg");
+    background-attachment: inherit;
+    border-radius: 200px;
+    
+}
+
+#lowerdiv {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#pfp {
+    max-width: 25%;
+    height: auto;
+    transition: 1s;
+}
+
+#top {
+    background-attachment: inherit;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    background-image: url("images/bg.jpg");
+    font-size: 1.5vw;
+    transition: 1s;
+}
+
+#top:hover {
+    transition: 1s;
+}
+
+#aboutdiv {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+#about {
+    background-size: contain;
+    transition: 0.4s;
+}
+
+#about:hover {
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+#interact {
+    background: none;
+    transition: 0.5s;
+    border: none;
+    outline:none;
+}
+
+#interact:hover {
+    transform: rotate(-60deg);
+    transition: 0.5s;
+}
+
+#interact:active {
+    transform:rotate(180deg) scale(0.5);
+    transition: 0.5s;
+}
+
+#link {
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding-right: 5px;
+    height: 30px;
+}
+
+#link:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+#link:active {
+    transform: scale(1);
+    transition: 0.05s;
+}
+
+#profilelinks {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#aboutlink {
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: white;
+    font-size: 60%;
+}
+
+#aboutlink:hover {
+    color: turquoise;
+    transition: 0.5s;
+}
+
+#aboutlink:active {
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+#contactbutton {
+    text-align: center;
+    background-color:rgba(58, 202, 190, 0.5);
+    font-family: monospace;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    color: rgb(37, 134, 95);
+    outline: none;
+    transition:0.5s
+}
+
+#contactbutton:hover {
+    color: rgb(104, 196, 159);
+    background-color: rgba(8, 66, 61, 0.5);
+    transition:0.5s
+}
+
+#contactbutton:active {
+    color: rgb(0, 255, 179);
+    background-color: rgba(2, 66, 40, 0.76);
+    transform:scale(0.95, 0.95);
+    transition:0.05s;
+}
+
+a {
+    color: white;
+    padding-bottom: 3px;
+}
