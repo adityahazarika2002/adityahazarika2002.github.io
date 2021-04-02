@@ -25,22 +25,21 @@ body {
     transition: 1s;
 }
 
-#top {
+#top {color: black;
     background-attachment: inherit;
-    padding-right: 10%;
-    padding-left: 10%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     border-radius: 50px;
     text-align: center;
     font-family: monospace;
     font-size: 1.5vw;
     transition: 1s;
+    max-width:100%;
 }
 
 #top:hover {
     transform: scale(1.5);
-    transition: 1.00001s;
+    transition: 1s;
 }
 
 #aboutdiv {
