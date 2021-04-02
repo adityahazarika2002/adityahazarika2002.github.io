@@ -66,6 +66,7 @@ h3 {
     background-image: url("images/bg.jpg");
     padding: 2%;
     background-attachment: inherit;
+    border-radius: 10px;
 }
 
 
@@ -81,10 +82,10 @@ h3 {
 }
 
 #homelink:hover {
-    color:rgb(255, 0, 0);
+    color:rgb(0, 255, 221);
     transition: 0.3s;
 }
 
 #homelink:active {
-    color: rgb(0, 255, 221);
+    color: rgb(166, 255, 0);
 }
