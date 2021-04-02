@@ -4,26 +4,13 @@ body {
     background-image: url("images/backdrop.png");
     background-attachment: fixed;
     padding: 0px;
-    background-size: 100vh;
-}
-
-#topbutton {
-    background: none;
-    border: none;
-    outline: none;
-    background-attachment: inherit;
-    transition: 1s;
-}
-
-#topbutton:hover {
-    transform: scale(1.1);
 }
 
 #topdiv {
     padding: 20px;
     background-image: url("images/bg.jpg");
     background-attachment: inherit;
-    border-radius: 200px;
+    border-radius: 80px;
     
 }
 
@@ -47,13 +34,12 @@ body {
     border-radius: 50px;
     text-align: center;
     font-family: monospace;
-    color: rgb(255, 255, 255);
-    background-image: url("images/bg.jpg");
     font-size: 1.5vw;
     transition: 1s;
 }
 
 #top:hover {
+    transform: scale(1.5);
     transition: 1.00001s;
 }
 
@@ -63,6 +49,8 @@ body {
 }
 
 #about {
+    font-family: monospace;
+    font-size: 130%;
     background-size: contain;
     transition: 0.4s;
 }
