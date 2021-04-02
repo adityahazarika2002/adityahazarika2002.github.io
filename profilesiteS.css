@@ -53,7 +53,7 @@ body {
 }
 
 #top:hover {
-    transition: 1s;
+    transition: 1.00001s;
 }
 
 #aboutdiv {
